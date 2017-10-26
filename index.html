@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Test</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="shortcut icon" href="app/assets/images/icon.png" type="image/x-icon">
+    <!-- inject-vender:css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app/assets/css/test.css">
+
+</head>
+
+<body class="nav-md">
+    <div class="body-container" data-ng-controller="LayoutCtrl as vm">
+        <div class="float-full">
+            <header data-ng-include="'app/common/layout/header.tmpl.html'"></header>
+            <div class="body-content">
+                <ng-view></ng-view>
+                <div class="clearfix"></div>
+            </div>
+            <footer class="footer" data-ng-include="'app/common/layout/footer.tmpl.html'"></footer>
+        </div>
+    </div>
+    <!-- inject-vendor:bower:js -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+    
+    <script src="production/js/test-app-1.0.0.min.js"></script>
+</body>
+
+</html>

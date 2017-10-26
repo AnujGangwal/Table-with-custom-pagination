@@ -1,0 +1,42 @@
+
+<div >
+    <span>Filters:</span>
+    City<select ng-model="filterItem.store" ng-options="item.city for item in filterOptions.stores">
+    </select>
+    Status<select ng-model="statusFilterSelected.status" ng-options="item.value for item in status.statusValue">
+    </select>
+    <table>
+        <thead>
+            <td>Appointment Id</td>
+            <td>Appointment Start Date</td>
+            <td>Appointment Start Time</td>
+            <td>City</td>
+            <td>Appointment Status</td>
+            <td>Consumer Name</td>
+            <td>Consumer Mobile Number</td>
+            <td>Franchise Name</td> 
+            <td>Artist Name</td>
+            <td>Services</td>
+            <td>Booking Final Amount</td>
+        </thead>
+        <tr ng-repeat="data in pagedData | limitTo:pageSize | filter:customFilter | filter:statusFilter">
+            <td>{{data.appointment.appointmentId}}</td>
+            <td>{{data.appointment.appointmentStartTS | date}}</td>
+            <td>{{data.appointment.appointmentStartTS | date:"hh:mm"}}</td>
+            <td>{{data.appointment.city.name}}</td>
+            <td>{{data.appointment.status}}</td>
+            <td>{{data.consumer.firstName}} {{data.consumer.lastName}}</td>
+            <td>{{data.consumer.mobileNumber}}</td>
+            <td>{{data.franchise.franchiseName}}</td>
+            <td>{{data.artist.firstName}} {{data.artist.lastName}}</td>
+            <td>{{getService(data.subCategories)}}</td>
+            <td>{{data.payment.finalAmount}}</td>
+        </tr>
+    </table>
+    <br>
+   
+    <button ng-disabled="pageButtonDisabled(-1)" ng-click="paginate(-1)">Previous</button>&nbsp;&nbsp;
+    <button ng-disabled="pageButtonDisabled(1)" ng-click="paginate(1)">Next</button>
+    <br /><br />
+    Page {{currentPage+1}} of {{totalPages}}
+</div>

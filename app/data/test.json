@@ -1,0 +1,5510 @@
+{
+	"code": "OK",
+	"message": "Everything Looks Good",
+	"count": 35,
+	"appointments": [
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-18 13:57:49",
+				"modifiedTS": "2016-07-19 12:34:19",
+				"appointmentId": 11897,
+				"appointmentStartTS": "2016-07-29T05:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T06:50:00.000+0000",
+				"activityTS": "2016-07-18T08:27:49.000+0000",
+				"finalAmount": 1170,
+				"originalAmount": 1170,
+				"status": "ARTIST_REJECTED",
+				"statusUpdateMessage": "ARTIST_REJECTED",
+				"artistId": 130202,
+				"reasonId": 2,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-18 13:57:49",
+					"originalAmount": 1170,
+					"finalAmount": 1170,
+					"activityTS": "2016-07-18T08:27:49.000+0000",
+					"payMode": "WALLET",
+					"payStatus": "SUCCESS",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 13:57:49",
+				"originalAmount": 1170,
+				"finalAmount": 1170,
+				"activityTS": "2016-07-18T08:27:49.000+0000",
+				"payMode": "WALLET",
+				"payStatus": "SUCCESS",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-28 16:47:52",
+				"appointmentId": 11996,
+				"appointmentStartTS": "2016-07-29T05:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T06:50:00.000+0000",
+				"activityTS": "2016-07-28T11:17:52.000+0000",
+				"finalAmount": 1230,
+				"originalAmount": 1230,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 130202,
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-28 16:47:52",
+					"originalAmount": 1230,
+					"finalAmount": 1230,
+					"activityTS": "2016-07-28T11:17:52.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-28 16:47:52",
+				"originalAmount": 1230,
+				"finalAmount": 1230,
+				"activityTS": "2016-07-28T11:17:52.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 5,
+					"name": "Threading",
+					"description": "Want to get rid of the extra hair growth around your eyebrows, upper lip, chin, forehead or face in general? MyGlamm offers you threading services using organic thread for the procedure. The thread contains aloe vera which helps in calming the skin and reducing redness. Try us out",
+					"services": [
+						{
+							"id": 41,
+							"name": "Chin",
+							"description": "Chin hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 42,
+							"name": "Forehead",
+							"description": "Hair removal from forehead",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 53,
+							"name": "Upper Lip",
+							"description": "Upper lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 54,
+							"name": "Lower Lip",
+							"description": "Lower lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-07-05 15:14:59",
+				"modifiedTS": "2016-07-27 12:08:50",
+				"artistId": 2000,
+				"firstName": "SUSHANT",
+				"lastName": "KADAM",
+				"email": "kadamsushant8@gmail.com",
+				"mobileNumber": "9664555347",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/Sushant_Kadam.jpg",
+				"artistGlammId": "IN1032265",
+				"dob": "1998-07-06 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.375,
+				"ratedCount": 8,
+				"experience": 5,
+				"description": "Hi, I’m Sushant, they call me John. I’m 24 years old, and I have been a Sr. Hair Stylist for almost 5 years, worked with brands like Enrich Salon. I mostly use one of the premium quality brands like L’Oreal and Moroccanoil. Clients say my hair cut makes them feel dynamic and young, and that’s my most requested service.\r\n\r\nI speak Hindi and Marathi, and my friends say I’m full-of-life and always passionate about my work. I can’t wait to give you a great new look!\r\n",
+				"genderPreference": "BOTH",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000096",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.Y.B.A ",
+				"technicalQualification": "Hair Stylist",
+				"pastCompany1": "Enrich",
+				"pastCompany2": "Hairline",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 16:34:39",
+				"modifiedTS": "2016-07-18 16:36:27",
+				"appointmentId": 11905,
+				"appointmentStartTS": "2016-07-29T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T07:30:00.000+0000",
+				"activityTS": "2016-07-18T11:05:49.000+0000",
+				"finalAmount": 800,
+				"originalAmount": 800,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"artistId": 2000,
+				"reasonId": 6,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-18 16:35:49",
+					"originalAmount": 800,
+					"finalAmount": 800,
+					"activityTS": "2016-07-18T11:05:49.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 16:35:49",
+				"originalAmount": 800,
+				"finalAmount": 800,
+				"activityTS": "2016-07-18T11:05:49.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 19,
+					"name": "Hair Cut (Senior Artist)",
+					"description": "Add more layers, a fringe, or give yourself a complete makeover. All you need to do is demand and our artists will have a suitable haircut for you. Our senior stylists boast over 5 years of experience in giving mind blowing haircuts and makeovers.\r\n\r\nWith a 100% fuss-free experience, the last thing you need to worry about is the mess! So just sit back and watch our stylists work their way to a glammorous you!",
+					"services": [
+						{
+							"id": 88,
+							"name": "Women",
+							"description": "Haircut for women with our senior artists with over 5 years experience. Includes a blow dry post haircut. Takes around 60 mins.",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-28 17:16:08",
+				"appointmentId": 11997,
+				"appointmentStartTS": "2016-07-29T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T08:05:00.000+0000",
+				"activityTS": "2016-07-28T11:46:08.000+0000",
+				"finalAmount": 1520,
+				"originalAmount": 1520,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-28 17:16:08",
+					"originalAmount": 1520,
+					"finalAmount": 1520,
+					"activityTS": "2016-07-28T11:46:08.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-28 17:16:08",
+				"originalAmount": 1520,
+				"finalAmount": 1520,
+				"activityTS": "2016-07-28T11:46:08.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 8,
+							"name": "Half Legs",
+							"description": "Half legs hair removal from knee to toes",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-04 06:13:36",
+				"modifiedTS": "2016-07-29 17:45:51",
+				"artistId": 2440,
+				"firstName": "LATA",
+				"lastName": "NIRMALE",
+				"email": "vishnu.nirmale1@gmail.com",
+				"mobileNumber": "9594880098",
+				"gender": "FEMALE",
+				"imageURL": "ProfilePicture/Lata_Nirmale.jpg",
+				"artistGlammId": "IN5093612",
+				"dob": "2016-04-13 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.64,
+				"ratedCount": 25,
+				"experience": 5,
+				"description": "Hi, I’m Lata. I’m 28 years old and I have been a Beauty Therapist for 5 years. I specialize in all beauty treatments. I only use professional products, which are known in the beauty industry.  I have regular client request for all beauty services.\r\n\r\nI speak Hindi and Marathi. I’m a calm and introvert person, but professional when it comes to work. Have a rejuvenating session in the comfort of your home.",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000113",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.S.C",
+				"technicalQualification": "Sashi Parlour",
+				"pastCompany1": "Sashi Parlour1",
+				"pastCompany2": "abc",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-27 12:28:58",
+				"modifiedTS": "2016-07-27 13:17:47",
+				"appointmentId": 11970,
+				"appointmentStartTS": "2016-07-29T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T08:15:00.000+0000",
+				"artistStartedTS": "2016-07-27T07:25:59.000+0000",
+				"artistEndedTS": "2016-07-27T07:46:26.000+0000",
+				"activityTS": "2016-07-27T07:01:29.000+0000",
+				"finalAmount": 1850,
+				"originalAmount": 1850,
+				"status": "COMPLETED",
+				"statusUpdateMessage": "COMPLETED",
+				"artistId": 2440,
+				"reasonId": 1,
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-27 12:31:29",
+					"originalAmount": 1850,
+					"finalAmount": 1850,
+					"activityTS": "2016-07-27T07:01:29.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-27 12:31:29",
+				"originalAmount": 1850,
+				"finalAmount": 1850,
+				"activityTS": "2016-07-27T07:01:29.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 8,
+							"name": "Half Legs",
+							"description": "Half legs hair removal from knee to toes",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 30,
+							"name": "Full Front",
+							"description": "Hair removal from chest to abdomen",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-26 11:43:15",
+				"modifiedTS": "2016-07-27 12:34:13",
+				"appointmentId": 11955,
+				"appointmentStartTS": "2016-07-29T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T08:20:00.000+0000",
+				"activityTS": "2016-07-26T11:50:55.000+0000",
+				"finalAmount": 1620,
+				"originalAmount": 1620,
+				"status": "ARTIST_REJECTED",
+				"statusUpdateMessage": "ARTIST_REJECTED",
+				"artistId": 130202,
+				"reasonId": 2,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-26 17:20:55",
+					"originalAmount": 1620,
+					"finalAmount": 1620,
+					"activityTS": "2016-07-26T11:50:55.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"userId": "30411",
+					"createdBy": "30411",
+					"createdTS": "2016-05-10 11:17:55",
+					"addressId": 7595,
+					"addressNickName": "Abc",
+					"location": "Andheri",
+					"landmark": "Neat City Hospital",
+					"societyName": "M G Road",
+					"flatNumber": "1, Splits Villa",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400012,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-26 17:20:55",
+				"originalAmount": 1620,
+				"finalAmount": 1620,
+				"activityTS": "2016-07-26T11:50:55.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 2
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-07-05 15:14:59",
+				"modifiedTS": "2016-07-27 12:08:50",
+				"artistId": 2000,
+				"firstName": "SUSHANT",
+				"lastName": "KADAM",
+				"email": "kadamsushant8@gmail.com",
+				"mobileNumber": "9664555347",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/Sushant_Kadam.jpg",
+				"artistGlammId": "IN1032265",
+				"dob": "1998-07-06 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.375,
+				"ratedCount": 8,
+				"experience": 5,
+				"description": "Hi, I’m Sushant, they call me John. I’m 24 years old, and I have been a Sr. Hair Stylist for almost 5 years, worked with brands like Enrich Salon. I mostly use one of the premium quality brands like L’Oreal and Moroccanoil. Clients say my hair cut makes them feel dynamic and young, and that’s my most requested service.\r\n\r\nI speak Hindi and Marathi, and my friends say I’m full-of-life and always passionate about my work. I can’t wait to give you a great new look!\r\n",
+				"genderPreference": "BOTH",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000096",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.Y.B.A ",
+				"technicalQualification": "Hair Stylist",
+				"pastCompany1": "Enrich",
+				"pastCompany2": "Hairline",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 16:37:35",
+				"modifiedTS": "2016-07-18 16:43:03",
+				"appointmentId": 11906,
+				"appointmentStartTS": "2016-07-29T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T08:30:00.000+0000",
+				"activityTS": "2016-07-18T11:08:31.000+0000",
+				"finalAmount": 1100,
+				"discount": 500,
+				"originalAmount": 1600,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"artistId": 2000,
+				"reasonId": 6,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-18 16:38:31",
+					"discount": 500,
+					"originalAmount": 1600,
+					"finalAmount": 1100,
+					"activityTS": "2016-07-18T11:08:31.000+0000",
+					"payMode": "WALLET",
+					"payStatus": "SUCCESS",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "staging500",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 16:38:31",
+				"discount": 500,
+				"originalAmount": 1600,
+				"finalAmount": 1100,
+				"activityTS": "2016-07-18T11:08:31.000+0000",
+				"payMode": "WALLET",
+				"payStatus": "SUCCESS",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 19,
+					"name": "Hair Cut (Senior Artist)",
+					"description": "Add more layers, a fringe, or give yourself a complete makeover. All you need to do is demand and our artists will have a suitable haircut for you. Our senior stylists boast over 5 years of experience in giving mind blowing haircuts and makeovers.\r\n\r\nWith a 100% fuss-free experience, the last thing you need to worry about is the mess! So just sit back and watch our stylists work their way to a glammorous you!",
+					"services": [
+						{
+							"id": 88,
+							"name": "Women",
+							"description": "Haircut for women with our senior artists with over 5 years experience. Includes a blow dry post haircut. Takes around 60 mins.",
+							"duration": 60,
+							"quantity": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 11:06:09",
+				"appointmentId": 11989,
+				"appointmentStartTS": "2016-07-29T08:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T09:00:00.000+0000",
+				"activityTS": "2016-07-28T05:36:09.000+0000",
+				"finalAmount": 1750,
+				"discount": 0,
+				"originalAmount": 1750,
+				"status": "PG_CANCELLED",
+				"statusUpdateMessage": "PG_CANCELLED",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-28 11:06:09",
+					"discount": 0,
+					"originalAmount": 1750,
+					"finalAmount": 1750,
+					"activityTS": "2016-07-28T05:36:09.000+0000",
+					"payMode": "PG",
+					"payStatus": "USER_CANCELLED",
+					"pgMode": "NET_BANKING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7460,
+					"addressNickName": "other",
+					"location": "Lower Parel",
+					"landmark": "vjshdb, Lower Parelgxgjxgxgfbzgzjxgjdisusg",
+					"societyName": "gshhsns",
+					"flatNumber": "hsibs",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400091,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 11:06:09",
+				"discount": 0,
+				"originalAmount": 1750,
+				"finalAmount": 1750,
+				"activityTS": "2016-07-28T05:36:09.000+0000",
+				"payMode": "PG",
+				"payStatus": "USER_CANCELLED",
+				"pgMode": "NET_BANKING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 38,
+					"name": "Biotique Facials",
+					"description": "BIOTIQUE is synonymous with skin care developed from Ayurveda. The products are pioneered by a new age of potent organic beauty that uses time-tested Ayurvedic therapies blended with contemporary science and beauty treatment requirements.",
+					"services": [
+						{
+							"id": 199,
+							"name": "Pearl Clean Up",
+							"description": "Helps in deep cleansing and getting rid of impurities from the skin. Lightens blemishes, removes blackheads and white heads & also gets rid of dead skin cells which leaves the skin smooth, soft & glowing.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 11:09:43",
+				"appointmentId": 11990,
+				"appointmentStartTS": "2016-07-29T08:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T09:00:00.000+0000",
+				"activityTS": "2016-07-28T05:39:43.000+0000",
+				"finalAmount": 1750,
+				"discount": 0,
+				"originalAmount": 1750,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-28 11:09:43",
+					"discount": 0,
+					"originalAmount": 1750,
+					"finalAmount": 1750,
+					"activityTS": "2016-07-28T05:39:43.000+0000",
+					"payMode": "PG",
+					"payStatus": "SUCCESS",
+					"pgMode": "DEBIT_CARD",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7460,
+					"addressNickName": "other",
+					"location": "Lower Parel",
+					"landmark": "vjshdb, Lower Parelgxgjxgxgfbzgzjxgjdisusg",
+					"societyName": "gshhsns",
+					"flatNumber": "hsibs",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400091,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 11:09:43",
+				"discount": 0,
+				"originalAmount": 1750,
+				"finalAmount": 1750,
+				"activityTS": "2016-07-28T05:39:43.000+0000",
+				"payMode": "PG",
+				"payStatus": "SUCCESS",
+				"pgMode": "DEBIT_CARD",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 38,
+					"name": "Biotique Facials",
+					"description": "BIOTIQUE is synonymous with skin care developed from Ayurveda. The products are pioneered by a new age of potent organic beauty that uses time-tested Ayurvedic therapies blended with contemporary science and beauty treatment requirements.",
+					"services": [
+						{
+							"id": 199,
+							"name": "Pearl Clean Up",
+							"description": "Helps in deep cleansing and getting rid of impurities from the skin. Lightens blemishes, removes blackheads and white heads & also gets rid of dead skin cells which leaves the skin smooth, soft & glowing.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-27 16:03:41",
+				"appointmentId": 11976,
+				"appointmentStartTS": "2016-07-29T07:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T09:20:00.000+0000",
+				"activityTS": "2016-07-27T10:33:41.000+0000",
+				"finalAmount": 3370,
+				"originalAmount": 3370,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-27 16:03:41",
+					"originalAmount": 3370,
+					"finalAmount": 3370,
+					"activityTS": "2016-07-27T10:33:41.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-27 16:03:41",
+				"originalAmount": 3370,
+				"finalAmount": 3370,
+				"activityTS": "2016-07-27T10:33:41.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 8,
+							"name": "Half Legs",
+							"description": "Half legs hair removal from knee to toes",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 15:45:16",
+				"appointmentId": 11974,
+				"appointmentStartTS": "2016-07-29T09:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T10:00:00.000+0000",
+				"activityTS": "2016-07-27T10:15:16.000+0000",
+				"finalAmount": 1200,
+				"discount": 0,
+				"originalAmount": 1200,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 130202,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 15:45:16",
+					"discount": 0,
+					"originalAmount": 1200,
+					"finalAmount": 1200,
+					"activityTS": "2016-07-27T10:15:16.000+0000",
+					"payMode": "PG",
+					"payStatus": "SUCCESS",
+					"pgMode": "DEBIT_CARD",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 15:45:16",
+				"discount": 0,
+				"originalAmount": 1200,
+				"finalAmount": 1200,
+				"activityTS": "2016-07-27T10:15:16.000+0000",
+				"payMode": "PG",
+				"payStatus": "SUCCESS",
+				"pgMode": "DEBIT_CARD",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-04 06:13:36",
+				"modifiedTS": "2016-07-29 17:45:51",
+				"artistId": 2440,
+				"firstName": "LATA",
+				"lastName": "NIRMALE",
+				"email": "vishnu.nirmale1@gmail.com",
+				"mobileNumber": "9594880098",
+				"gender": "FEMALE",
+				"imageURL": "ProfilePicture/Lata_Nirmale.jpg",
+				"artistGlammId": "IN5093612",
+				"dob": "2016-04-13 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.64,
+				"ratedCount": 25,
+				"experience": 5,
+				"description": "Hi, I’m Lata. I’m 28 years old and I have been a Beauty Therapist for 5 years. I specialize in all beauty treatments. I only use professional products, which are known in the beauty industry.  I have regular client request for all beauty services.\r\n\r\nI speak Hindi and Marathi. I’m a calm and introvert person, but professional when it comes to work. Have a rejuvenating session in the comfort of your home.",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000113",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.S.C",
+				"technicalQualification": "Sashi Parlour",
+				"pastCompany1": "Sashi Parlour1",
+				"pastCompany2": "abc",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 15:40:08",
+				"modifiedTS": "2016-07-28 10:51:44",
+				"appointmentId": 11973,
+				"appointmentStartTS": "2016-07-29T09:30:00.000+0000",
+				"appointmentEndTS": "2016-07-29T10:45:00.000+0000",
+				"artistStartedTS": "2016-07-28T05:20:14.000+0000",
+				"artistEndedTS": "2016-07-28T05:20:21.000+0000",
+				"activityTS": "2016-07-27T10:10:08.000+0000",
+				"finalAmount": 2550,
+				"discount": 500,
+				"originalAmount": 3050,
+				"status": "COMPLETED",
+				"statusUpdateMessage": "COMPLETED",
+				"artistId": 2440,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 15:40:08",
+					"discount": 500,
+					"originalAmount": 3050,
+					"finalAmount": 2550,
+					"activityTS": "2016-07-27T10:10:08.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "staging500",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 15:40:08",
+				"discount": 500,
+				"originalAmount": 3050,
+				"finalAmount": 2550,
+				"activityTS": "2016-07-27T10:10:08.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-11 11:03:49",
+				"modifiedBy": "PrasadD",
+				"modifiedTS": "2015-12-19 11:57:57",
+				"artistId": 2600,
+				"firstName": "ANGAD",
+				"lastName": "MARV",
+				"email": "angadmarv88@gmail.com",
+				"mobileNumber": "8390803970",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/AngadAngad_Marv.jpg",
+				"artistGlammId": "IN6200788",
+				"enabled": true,
+				"aggregatedRating": 5,
+				"experience": 7,
+				"description": "Hey, I’m Angad. I’m 25 years old and I have been a Sr. Hair Stylist for almost 7 years, gaining experience at Olive and Jawed Habib. I only use professional products. I have repetitive clients coming to me for haircut, hair spa and styling.\r\n\r\nI speak English and Hindi. I’m an extrovert yet a thorough professional. It would be exciting to give you a new look!",
+				"genderPreference": "BOTH",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000129",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "B.Com",
+				"technicalQualification": "Jawed Habib",
+				"pastCompany1": "Olive",
+				"pastCompany2": "Jawed Habib",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:30:51",
+				"appointmentId": 11983,
+				"appointmentStartTS": "2016-07-29T10:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T11:45:00.000+0000",
+				"activityTS": "2016-07-27T13:00:51.000+0000",
+				"finalAmount": 1100,
+				"discount": 0,
+				"originalAmount": 1100,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 2600,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 18:30:51",
+					"discount": 0,
+					"originalAmount": 1100,
+					"finalAmount": 1100,
+					"activityTS": "2016-07-27T13:00:51.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 476,
+					"name": "Pune",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7611,
+					"addressNickName": "pune",
+					"location": "Lower Parel",
+					"landmark": "dgvsvvd",
+					"societyName": "jfzjj i",
+					"flatNumber": "xiiobo ",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 411036,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:30:51",
+				"discount": 0,
+				"originalAmount": 1100,
+				"finalAmount": 1100,
+				"activityTS": "2016-07-27T13:00:51.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-16 14:03:57",
+				"franchiseId": 5,
+				"franchiseUniqueId": "INUF72705",
+				"franchiseName": "Pune_UF",
+				"ownerName": "own5",
+				"associatedStartTS": "2016-07-16 14:02:50",
+				"associatedEndTS": "2016-07-16 14:02:50",
+				"contractTS": "2016-07-16 14:02:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Pune_UF@Myglamm.com",
+				"mobile": "9999999994"
+			},
+			"subCategories": [
+				{
+					"id": 19,
+					"name": "Hair Cut (Senior Artist)",
+					"description": "Add more layers, a fringe, or give yourself a complete makeover. All you need to do is demand and our artists will have a suitable haircut for you. Our senior stylists boast over 5 years of experience in giving mind blowing haircuts and makeovers.\r\n\r\nWith a 100% fuss-free experience, the last thing you need to worry about is the mess! So just sit back and watch our stylists work their way to a glammorous you!",
+					"services": [
+						{
+							"id": 87,
+							"name": "Men",
+							"description": "Hair cut for men using scissors and trimmers done by our senior artists who have over 5 years of experience . Takes around 60 minutes.",
+							"duration": 45,
+							"quantity": 1
+						},
+						{
+							"id": 88,
+							"name": "Women",
+							"description": "Haircut for women with our senior artists with over 5 years experience. Includes a blow dry post haircut. Takes around 60 mins.",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-26 17:31:36",
+				"appointmentId": 11962,
+				"appointmentStartTS": "2016-07-29T13:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T17:30:00.000+0000",
+				"activityTS": "2016-07-26T12:01:36.000+0000",
+				"finalAmount": 11100,
+				"originalAmount": 11100,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-26 17:31:36",
+					"originalAmount": 11100,
+					"finalAmount": 11100,
+					"activityTS": "2016-07-26T12:01:36.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7692,
+					"addressNickName": "Aunt's House",
+					"location": "Lower Parel",
+					"landmark": "Near Pinto Park",
+					"societyName": "Shiv Road",
+					"flatNumber": "10,New Moon",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400010,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-26 17:31:36",
+				"originalAmount": 11100,
+				"finalAmount": 11100,
+				"activityTS": "2016-07-26T12:01:36.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 6
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 16:22:59",
+				"modifiedTS": "2016-07-28 10:46:46",
+				"appointmentId": 11959,
+				"appointmentStartTS": "2016-07-29T13:00:00.000+0000",
+				"appointmentEndTS": "2016-07-29T18:15:00.000+0000",
+				"activityTS": "2016-07-26T10:52:59.000+0000",
+				"finalAmount": 12950,
+				"originalAmount": 12950,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 5,
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-26 16:22:59",
+					"originalAmount": 12950,
+					"finalAmount": 12950,
+					"activityTS": "2016-07-26T10:52:59.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 16:22:59",
+				"originalAmount": 12950,
+				"finalAmount": 12950,
+				"activityTS": "2016-07-26T10:52:59.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 7
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-26 17:44:17",
+				"appointmentId": 11963,
+				"appointmentStartTS": "2016-07-30T06:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T07:50:00.000+0000",
+				"activityTS": "2016-07-26T12:14:17.000+0000",
+				"finalAmount": 1170,
+				"originalAmount": 1170,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 130202,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-26 17:44:17",
+					"originalAmount": 1170,
+					"finalAmount": 1170,
+					"activityTS": "2016-07-26T12:14:17.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-15 16:21:27",
+					"addressId": 4748,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "mira road east",
+					"societyName": "Shanti nagar",
+					"flatNumber": "102,jaydeep hsg soc",
+					"latitude": 18.9890698,
+					"longitude": 72.8309273,
+					"zipCode": 401602,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-26 17:44:17",
+				"originalAmount": 1170,
+				"finalAmount": 1170,
+				"activityTS": "2016-07-26T12:14:17.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-14 10:57:55",
+				"modifiedBy": "120183",
+				"modifiedTS": "2016-07-16 13:57:57",
+				"franchiseId": 32,
+				"franchiseUniqueId": "INUF72706",
+				"franchiseName": "UF_TEST",
+				"ownerName": "own2",
+				"associatedStartTS": "2016-07-16 13:56:50",
+				"associatedEndTS": "2016-07-16 13:56:50",
+				"contractTS": "2016-07-16 13:56:50",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "test@testmail.com",
+				"mobile": "9812345678"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:58:38",
+				"appointmentId": 11987,
+				"appointmentStartTS": "2016-07-30T07:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T08:45:00.000+0000",
+				"activityTS": "2016-07-27T13:28:38.000+0000",
+				"finalAmount": 3050,
+				"discount": 0,
+				"originalAmount": 3050,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 18:58:38",
+					"discount": 0,
+					"originalAmount": 3050,
+					"finalAmount": 3050,
+					"activityTS": "2016-07-27T13:28:38.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:58:38",
+				"discount": 0,
+				"originalAmount": 3050,
+				"finalAmount": 3050,
+				"activityTS": "2016-07-27T13:28:38.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 17:50:47",
+				"appointmentId": 12000,
+				"appointmentStartTS": "2016-07-30T07:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T09:00:00.000+0000",
+				"activityTS": "2016-07-28T12:20:47.000+0000",
+				"finalAmount": 610,
+				"discount": 0,
+				"originalAmount": 610,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-28 17:50:48",
+					"discount": 0,
+					"originalAmount": 610,
+					"finalAmount": 610,
+					"activityTS": "2016-07-28T12:20:47.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-28 17:50:48",
+				"discount": 0,
+				"originalAmount": 610,
+				"finalAmount": 610,
+				"activityTS": "2016-07-28T12:20:47.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 5,
+					"name": "Threading",
+					"description": "Want to get rid of the extra hair growth around your eyebrows, upper lip, chin, forehead or face in general? MyGlamm offers you threading services using organic thread for the procedure. The thread contains aloe vera which helps in calming the skin and reducing redness. Try us out",
+					"services": [
+						{
+							"id": 41,
+							"name": "Chin",
+							"description": "Chin hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 42,
+							"name": "Forehead",
+							"description": "Hair removal from forehead",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 53,
+							"name": "Upper Lip",
+							"description": "Upper lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 54,
+							"name": "Lower Lip",
+							"description": "Lower lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 55,
+							"name": "SideLocks",
+							"description": "Side locks removal with threading",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 56,
+							"name": "Jawline",
+							"description": "Hair removal on the jaw line",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 57,
+							"name": "Neck",
+							"description": "Hair removal across the neck",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 58,
+							"name": "Face",
+							"description": "Hair removal across face",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-27 15:47:41",
+				"appointmentId": 11975,
+				"appointmentStartTS": "2016-07-30T08:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T09:15:00.000+0000",
+				"activityTS": "2016-07-27T10:17:41.000+0000",
+				"finalAmount": 1850,
+				"originalAmount": 1850,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-27 15:47:41",
+					"originalAmount": 1850,
+					"finalAmount": 1850,
+					"activityTS": "2016-07-27T10:17:41.000+0000",
+					"payMode": "PG",
+					"payStatus": "SUCCESS",
+					"pgMode": "CREDIT_CARD",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"userId": "53371",
+					"addressId": 7592,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "vsbbs",
+					"societyName": "gsbsbs",
+					"flatNumber": "mvahsja111",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400020,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-27 15:47:41",
+				"originalAmount": 1850,
+				"finalAmount": 1850,
+				"activityTS": "2016-07-27T10:17:41.000+0000",
+				"payMode": "PG",
+				"payStatus": "SUCCESS",
+				"pgMode": "CREDIT_CARD",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:50:16",
+				"appointmentId": 11986,
+				"appointmentStartTS": "2016-07-30T08:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T09:45:00.000+0000",
+				"activityTS": "2016-07-27T13:20:16.000+0000",
+				"finalAmount": 2850,
+				"discount": 0,
+				"originalAmount": 2850,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 18:50:16",
+					"discount": 0,
+					"originalAmount": 2850,
+					"finalAmount": 2850,
+					"activityTS": "2016-07-27T13:20:16.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 18:50:16",
+				"discount": 0,
+				"originalAmount": 2850,
+				"finalAmount": 2850,
+				"activityTS": "2016-07-27T13:20:16.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 38,
+							"name": "Advance Facial",
+							"description": "The advanced facial includes cleansing, scrubbing, steaming, blackhead removal, product penetration using ultrasound machine, 20 mins face & 10 minute back massage & pack application.",
+							"duration": 75,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-18 13:12:43",
+				"modifiedTS": "2016-07-19 11:47:08",
+				"appointmentId": 11894,
+				"appointmentStartTS": "2016-07-30T06:00:00.000+0000",
+				"appointmentEndTS": "2016-07-30T10:21:00.000+0000",
+				"activityTS": "2016-07-18T07:42:43.000+0000",
+				"finalAmount": 3545,
+				"originalAmount": 3545,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 6,
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-18 13:12:43",
+					"originalAmount": 3545,
+					"finalAmount": 3545,
+					"activityTS": "2016-07-18T07:42:43.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7591,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "bshns",
+					"societyName": "vsjbshddnkdjd",
+					"flatNumber": "gsjsb",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400045,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-18 13:12:43",
+				"originalAmount": 3545,
+				"finalAmount": 3545,
+				"activityTS": "2016-07-18T07:42:43.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 18,
+					"name": "Acrylic Nail Extension",
+					"description": "Create artificial nails by using nail products to extend the nail past the edge of your natural nail. These products include soft gel which refer to gel products applied on your nail and cured by a UV gel nail dryer or acrylic where an artificial nail is secured with liquid acrylic and powder.Get your nails all Glammed up! From acrylic/gel nail extensions to nail art and basic cut, file and polish, you can enjoy all of it right at your doorstep. So call us over and let us add some sass to your nails!",
+					"services": [
+						{
+							"id": 127,
+							"name": "Removal",
+							"description": "Get rid of your acrylic nail extensions",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 9,
+					"name": "Gel Nail Extension",
+					"description": "Create artificial nails by using nail products to extend the nail past the edge of your natural nail. These products include soft gel which refer to gel products applied on your nail and cured by a UV gel nail dryer or acrylic where an artificial nail is secured with liquid acrylic and powder.Get your nails all Glammed up! From acrylic/gel nail extensions to nail art and basic cut, file and polish, you can enjoy all of it right at your doorstep. So call us over and let us add some sass to your nails!",
+					"services": [
+						{
+							"id": 128,
+							"name": "Removal",
+							"description": "Get rid of your nail extensions",
+							"duration": 45,
+							"quantity": 1
+						},
+						{
+							"id": 129,
+							"name": "Overlay",
+							"description": "Acrylic nail overlays are for women who have naturally long nails.The nail extension is applied directly onto your nails whereas the artificial tip to add length is not applied.",
+							"duration": 90,
+							"quantity": 1
+						},
+						{
+							"id": 130,
+							"name": "Refill Per Tip",
+							"description": "Refill the gaps between your extensions and your freshly grown nail.",
+							"duration": 9,
+							"quantity": 1
+						},
+						{
+							"id": 131,
+							"name": "Extension Per Tip",
+							"description": "A special gel mixture is applied on top of your nail extension or directly onto the natural nail bed to create an artificial layer and also to strengthen the nail and promote natural growth. ",
+							"duration": 12,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 41,
+					"name": "Gelicure",
+					"description": "Let your nails do some talking. The trend is catching! Get gel nails right at your doorstep and flaunt nails like never before. ",
+					"services": [
+						{
+							"id": 211,
+							"name": "Gel Polish Removal",
+							"description": "Nail styling with gel nail polish. Gel nail polish is a special formula that is cured under ultraviolet lamps which last at least two weeks without chipping, making them much more practical than regular manicures.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "Nail Art",
+					"description": "Nails take any old outfit and make it new!\"Even if you're a little under-dressed for an occasion, you can make that statement by glamming up your nails. So call our artists over and get some gorgeous nail art done. Adding some drama to your look can do no harm.",
+					"services": [
+						{
+							"id": 212,
+							"name": "Basic Nail Art Per Tip",
+							"description": "Basic nail art includes styling your nails with simple yet appealing designs that go with your style.",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 213,
+							"name": "Advance Nail Art Per Tip",
+							"description": "From gradients, prints, stone work, blinged out grafftiti to whatever your look demands. Get advanced nail art",
+							"duration": 15,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-04 06:13:36",
+				"modifiedTS": "2016-07-29 17:45:51",
+				"artistId": 2440,
+				"firstName": "LATA",
+				"lastName": "NIRMALE",
+				"email": "vishnu.nirmale1@gmail.com",
+				"mobileNumber": "9594880098",
+				"gender": "FEMALE",
+				"imageURL": "ProfilePicture/Lata_Nirmale.jpg",
+				"artistGlammId": "IN5093612",
+				"dob": "2016-04-13 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.64,
+				"ratedCount": 25,
+				"experience": 5,
+				"description": "Hi, I’m Lata. I’m 28 years old and I have been a Beauty Therapist for 5 years. I specialize in all beauty treatments. I only use professional products, which are known in the beauty industry.  I have regular client request for all beauty services.\r\n\r\nI speak Hindi and Marathi. I’m a calm and introvert person, but professional when it comes to work. Have a rejuvenating session in the comfort of your home.",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000113",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.S.C",
+				"technicalQualification": "Sashi Parlour",
+				"pastCompany1": "Sashi Parlour1",
+				"pastCompany2": "abc",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-18 13:19:54",
+				"modifiedTS": "2016-07-29 13:28:53",
+				"appointmentId": 11895,
+				"appointmentStartTS": "2016-07-30T06:00:00.000+0000",
+				"appointmentEndTS": "2016-07-30T10:30:00.000+0000",
+				"activityTS": "2016-07-29T07:58:53.000+0000",
+				"finalAmount": 7140,
+				"originalAmount": 7140,
+				"status": "PENDING",
+				"statusUpdateMessage": "Appointment Edited Successfully",
+				"artistId": 2440,
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-29 13:28:53",
+					"originalAmount": 7140,
+					"finalAmount": 7140,
+					"activityTS": "2016-07-29T07:58:53.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "staging500",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-29 13:28:53",
+				"originalAmount": 7140,
+				"finalAmount": 7140,
+				"activityTS": "2016-07-29T07:58:53.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 52,
+					"name": "Beauty Packages",
+					"description": "Here’s introducing special beauty packages that take care of all your beauty needs at discounted prices leaving you with supple and satin kissed skin!",
+					"services": [
+						{
+							"id": 318,
+							"name": "Hair Woes",
+							"description": "Ain't nobody got time for hair woes! Here's introducing our package that takes care of full arms, full legs and underarms waxing making sure you get rid of all that extra and unwanted hair from your body leaving you party ready with supple and satin kissed skin!",
+							"duration": 60,
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 2
+						},
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 17:35:48",
+				"modifiedTS": "2016-07-27 17:36:41",
+				"appointmentId": 11978,
+				"appointmentStartTS": "2016-07-30T09:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T10:45:00.000+0000",
+				"activityTS": "2016-07-27T12:05:48.000+0000",
+				"finalAmount": 2400,
+				"discount": 0,
+				"originalAmount": 2400,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 5,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 17:35:48",
+					"discount": 0,
+					"originalAmount": 2400,
+					"finalAmount": 2400,
+					"activityTS": "2016-07-27T12:05:48.000+0000",
+					"payMode": "WALLET",
+					"payStatus": "SUCCESS",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 17:35:48",
+				"discount": 0,
+				"originalAmount": 2400,
+				"finalAmount": 2400,
+				"activityTS": "2016-07-27T12:05:48.000+0000",
+				"payMode": "WALLET",
+				"payStatus": "SUCCESS",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 38,
+					"name": "Biotique Facials",
+					"description": "BIOTIQUE is synonymous with skin care developed from Ayurveda. The products are pioneered by a new age of potent organic beauty that uses time-tested Ayurvedic therapies blended with contemporary science and beauty treatment requirements.",
+					"services": [
+						{
+							"id": 199,
+							"name": "Pearl Clean Up",
+							"description": "Helps in deep cleansing and getting rid of impurities from the skin. Lightens blemishes, removes blackheads and white heads & also gets rid of dead skin cells which leaves the skin smooth, soft & glowing.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-29 01:41:52",
+				"appointmentId": 12002,
+				"appointmentStartTS": "2016-07-30T11:15:00.000+0000",
+				"appointmentEndTS": "2016-07-30T12:15:00.000+0000",
+				"activityTS": "2016-07-28T20:11:52.000+0000",
+				"finalAmount": 1800,
+				"originalAmount": 1800,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-29 01:41:52",
+					"originalAmount": 1800,
+					"finalAmount": 1800,
+					"activityTS": "2016-07-28T20:11:52.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 476,
+					"name": "Pune",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "1.0",
+					"deviceType": "Datamigration",
+					"createdTS": "2016-01-19 00:32:32",
+					"addressId": 4809,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "5, Matunga East",
+					"societyName": "Sewari Wadala Road",
+					"flatNumber": "2",
+					"latitude": 18.9561458,
+					"longitude": 72.8402491,
+					"zipCode": 400019,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-29 01:41:52",
+				"originalAmount": 1800,
+				"finalAmount": 1800,
+				"activityTS": "2016-07-28T20:11:52.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0",
+				"deviceType": "ios",
+				"createdBy": "iOS",
+				"modifiedBy": "iOS",
+				"modifiedTS": "2016-04-18 13:42:34",
+				"consumerId": 31211,
+				"firstName": "Amit",
+				"lastName": "P",
+				"mobileNumber": "9011480925",
+				"email": "amit.p@gmail.com",
+				"gender": "male",
+				"dob": "2016-02-08T10:02:59.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-18T19:00:45.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3128,
+					"lastTransactionId": 0,
+					"currentBalance": 0,
+					"lastTransactionAmount": 0,
+					"lastUpdatedTS": "2016-01-18T18:57:28.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 31,
+					"name": "Novalash Eyelash Extension",
+					"description": "Novalash is the World's industry leader in Eyelash extensions. Award winning, long lasting, pharmaceutical grade adhesives have earned Novalash its reputation as 'the healthiest' professional lash extension system.\r\n\r\nComprised of a wide-ranging pallette of colours and textures that can be combined for looks that run the gamut from subtle and natural to trendy and glammorous; each application is a work of art with an intricate finish. \r\nThese stunning lash extensions last for almost 4 weeks and fall off just like your natural eyelashes post that.",
+					"services": [
+						{
+							"id": 152,
+							"name": "Bottom EyeLashes Extension",
+							"description": "Enhance the eyelashes on your lower eyelid with Novalash eyelash extensions.",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 17:59:48",
+				"appointmentId": 11964,
+				"appointmentStartTS": "2016-07-30T10:30:00.000+0000",
+				"appointmentEndTS": "2016-07-30T12:30:00.000+0000",
+				"activityTS": "2016-07-26T12:29:48.000+0000",
+				"finalAmount": 12000,
+				"originalAmount": 12000,
+				"status": "PG_CANCELLED",
+				"statusUpdateMessage": "PG_CANCELLED",
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-26 17:59:48",
+					"originalAmount": 12000,
+					"finalAmount": 12000,
+					"activityTS": "2016-07-26T12:29:48.000+0000",
+					"payMode": "PG",
+					"payStatus": "PENDING",
+					"pgMode": "CREDIT_CARD",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 17:59:48",
+				"originalAmount": 12000,
+				"finalAmount": 12000,
+				"activityTS": "2016-07-26T12:29:48.000+0000",
+				"payMode": "PG",
+				"payStatus": "PENDING",
+				"pgMode": "CREDIT_CARD",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 20,
+					"name": "Make Up (Senior Artist)",
+					"description": "Witness MyGlamm magicians in action! Sit back while they conceal, contour and create a look of your lifetime. Be it a family function, a cocktail party or your BIG DAY, make sure you call us over to get that sensational look. We have senior artists with over 5 years of professional experience in giving desired makeovers.",
+					"services": [
+						{
+							"id": 90,
+							"name": "Day / Evening",
+							"description": "Whether you have to attend a brunch or a cocktail party, you deserve to look your best. Our senior make-up artists with over 5 years experience will make sure you get the look you desire. Be it smart or sassy, we've got your back.",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 42,
+					"name": "Makeup (Celebrity Artist)",
+					"description": "Witness MyGlamm magicians in action! Sit back while they conceal, contour and create a look of your lifetime. Be it a family function, a cocktail party or your BIG DAY, make sure you call us over to get that sensational look. We have senior artists with over 5 years of professional experience as well as junior artists with experience between 3-5 years.",
+					"services": [
+						{
+							"id": 217,
+							"name": "Day/Evening",
+							"description": "Whether you have to attend a brunch or a day time event, you have to look your best. Our celebrity make-up artists with over 5 years experience will make sure you get the look you desire. Be it smart or sassy, we've got your back.",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "android",
+				"createdTS": "2016-06-17 14:59:12",
+				"modifiedTS": "2016-06-18 17:36:56",
+				"appointmentId": 11585,
+				"appointmentStartTS": "2016-07-31T07:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T08:00:00.000+0000",
+				"activityTS": "2016-06-17T09:29:12.000+0000",
+				"finalAmount": 1000,
+				"originalAmount": 1000,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 5,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-06-17 14:59:12",
+					"originalAmount": 1000,
+					"finalAmount": 1000,
+					"activityTS": "2016-06-17T09:29:12.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"userId": "53371",
+					"addressId": 7651,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "temple",
+					"societyName": "golpha",
+					"flatNumber": "888",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400022,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-06-17 14:59:12",
+				"originalAmount": 1000,
+				"finalAmount": 1000,
+				"activityTS": "2016-06-17T09:29:12.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 32,
+							"name": "Brazilian",
+							"description": "Complete hair removal from the bikini area",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-04 06:13:36",
+				"modifiedTS": "2016-07-29 17:45:51",
+				"artistId": 2440,
+				"firstName": "LATA",
+				"lastName": "NIRMALE",
+				"email": "vishnu.nirmale1@gmail.com",
+				"mobileNumber": "9594880098",
+				"gender": "FEMALE",
+				"imageURL": "ProfilePicture/Lata_Nirmale.jpg",
+				"artistGlammId": "IN5093612",
+				"dob": "2016-04-13 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.64,
+				"ratedCount": 25,
+				"experience": 5,
+				"description": "Hi, I’m Lata. I’m 28 years old and I have been a Beauty Therapist for 5 years. I specialize in all beauty treatments. I only use professional products, which are known in the beauty industry.  I have regular client request for all beauty services.\r\n\r\nI speak Hindi and Marathi. I’m a calm and introvert person, but professional when it comes to work. Have a rejuvenating session in the comfort of your home.",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000113",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.S.C",
+				"technicalQualification": "Sashi Parlour",
+				"pastCompany1": "Sashi Parlour1",
+				"pastCompany2": "abc",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 19:04:08",
+				"appointmentId": 11988,
+				"appointmentStartTS": "2016-07-31T07:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T08:00:00.000+0000",
+				"activityTS": "2016-07-27T13:34:08.000+0000",
+				"finalAmount": 1200,
+				"discount": 0,
+				"originalAmount": 1200,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 2440,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-27 19:04:08",
+					"discount": 0,
+					"originalAmount": 1200,
+					"finalAmount": 1200,
+					"activityTS": "2016-07-27T13:34:08.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-27 19:04:08",
+				"discount": 0,
+				"originalAmount": 1200,
+				"finalAmount": 1200,
+				"activityTS": "2016-07-27T13:34:08.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 35,
+							"name": "Clean Up",
+							"description": "The clean up includes cleansing, scrubbing, steaming, blackhead removal and 5 mins of face massage & pack application.",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0",
+				"deviceType": "android",
+				"createdTS": "2016-06-17 14:59:12",
+				"modifiedTS": "2016-06-21 11:03:31",
+				"appointmentId": 11586,
+				"appointmentStartTS": "2016-07-31T08:00:00.000+0000",
+				"appointmentEndTS": "2016-07-31T08:30:00.000+0000",
+				"activityTS": "2016-06-17T09:29:12.000+0000",
+				"finalAmount": 1000,
+				"originalAmount": 1000,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 7,
+				"appointmentPayment": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-06-17 14:59:12",
+					"originalAmount": 1000,
+					"finalAmount": 1000,
+					"activityTS": "2016-06-17T09:29:12.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"userId": "53371",
+					"addressId": 7651,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "temple",
+					"societyName": "golpha",
+					"flatNumber": "888",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400022,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-06-17 14:59:12",
+				"originalAmount": 1000,
+				"finalAmount": 1000,
+				"activityTS": "2016-06-17T09:29:12.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 32,
+							"name": "Brazilian",
+							"description": "Complete hair removal from the bikini area",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"artistId": 130202,
+				"firstName": "megha",
+				"lastName": "test3",
+				"email": "megha@gmail.com",
+				"mobileNumber": "9845678915",
+				"gender": "FEMALE",
+				"artistGlammId": "IN2006557",
+				"dob": "2016-07-15 00:00:00",
+				"enabled": true,
+				"experience": 3,
+				"description": "234234",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "13723225709764",
+				"priceBandEnum": "MEDIUM",
+				"engagementModeEnum": "FULL_TIME_COMMITMENT",
+				"serviceTaxNumber": "131232",
+				"educationalQualification": "fdg",
+				"technicalQualification": "xvx",
+				"pastCompany1": "xfdfs",
+				"pastCompany2": "sdfsdf"
+			},
+			"appointment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdBy": "120183",
+				"createdTS": "2016-07-27 12:49:18",
+				"appointmentId": 11971,
+				"appointmentStartTS": "2016-07-31T07:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T09:00:00.000+0000",
+				"activityTS": "2016-07-27T07:19:18.000+0000",
+				"finalAmount": 999,
+				"originalAmount": 999,
+				"status": "PENDING",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"artistId": 130202,
+				"appointmentPayment": {
+					"appVersion": "2.2",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-07-27 12:49:18",
+					"originalAmount": 999,
+					"finalAmount": 999,
+					"activityTS": "2016-07-27T07:19:18.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0",
+					"deviceType": "Admin-Panel",
+					"createdTS": "2016-01-23 12:37:44",
+					"addressId": 4920,
+					"addressNickName": "Home",
+					"location": "NA",
+					"landmark": "Near Txt Stop, Lower Parel",
+					"societyName": "Link Road",
+					"flatNumber": "1023",
+					"latitude": 19.2047668,
+					"longitude": 72.8345004,
+					"zipCode": 400022,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.2",
+				"deviceType": "Admin-Panel",
+				"createdTS": "2016-07-27 12:49:18",
+				"originalAmount": 999,
+				"finalAmount": 999,
+				"activityTS": "2016-07-27T07:19:18.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "1.0",
+				"deviceType": "ios",
+				"createdBy": "Android",
+				"modifiedTS": "2016-06-06 13:00:35",
+				"consumerId": 30411,
+				"firstName": "MEGHA",
+				"lastName": "TEST",
+				"mobileNumber": "9823917771",
+				"email": "meghakande55@gmail.com",
+				"gender": "Female",
+				"dob": "1991-05-26T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-01-15T10:50:05.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 3049,
+					"lastTransactionId": 2941,
+					"currentBalance": 8619,
+					"lastTransactionAmount": 1170,
+					"lastUpdatedTS": "2016-07-29T11:43:22.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 52,
+					"name": "Beauty Packages",
+					"description": "Here’s introducing special beauty packages that take care of all your beauty needs at discounted prices leaving you with supple and satin kissed skin!",
+					"services": [
+						{
+							"id": 319,
+							"name": "Dressy Day",
+							"description": "Flaunt flawles skin on a dressy day. Weather you have a party to attend or just a dinner date with your friend, a Face & Neck De-tan, Manicure and Pedicure are just the essentials to look radiant and stunning!",
+							"duration": 90,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 13:09:36",
+				"appointmentId": 11957,
+				"appointmentStartTS": "2016-07-31T08:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T09:30:00.000+0000",
+				"activityTS": "2016-07-26T07:39:36.000+0000",
+				"finalAmount": 1700,
+				"originalAmount": 1700,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-26 13:09:36",
+					"originalAmount": 1700,
+					"finalAmount": 1700,
+					"activityTS": "2016-07-26T07:39:36.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 13:09:36",
+				"originalAmount": 1700,
+				"finalAmount": 1700,
+				"activityTS": "2016-07-26T07:39:36.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 21,
+					"name": "Moroccanoil Hair Treatment",
+					"description": "A hair spa is not just about pampering but also about providing nutrients to the hair and maintaining healthy growth. The four essentials involved in the process are: Shampoo, conditioning, hair mask and massage. \r\n\r\nMyGlamm brings to you MoroccanOil hair spas to help you get strong and healthy hair. MoroccanOil products are antioxidant infused and nutrient rich that provide unmatched and dramatic results in just a few sittings.\r\n\r\n\r\nSo bask in the goodness of the MoroccanOil hair spa  and make sure your hair gets its dose of nutrition regularly.",
+					"services": [
+						{
+							"id": 91,
+							"name": "Ritual Hair Spa",
+							"description": "60 mins hair spa session with steam and 15 mins of relaxing massage with Morocconoil hair care products. Total time taken for service - 75 mins",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-26 13:09:39",
+				"appointmentId": 11958,
+				"appointmentStartTS": "2016-07-31T08:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T09:30:00.000+0000",
+				"activityTS": "2016-07-26T07:39:39.000+0000",
+				"finalAmount": 1700,
+				"discount": 0,
+				"originalAmount": 1700,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-26 13:09:39",
+					"discount": 0,
+					"originalAmount": 1700,
+					"finalAmount": 1700,
+					"activityTS": "2016-07-26T07:39:39.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-26 13:09:39",
+				"discount": 0,
+				"originalAmount": 1700,
+				"finalAmount": 1700,
+				"activityTS": "2016-07-26T07:39:39.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 21,
+					"name": "Moroccanoil Hair Treatment",
+					"description": "A hair spa is not just about pampering but also about providing nutrients to the hair and maintaining healthy growth. The four essentials involved in the process are: Shampoo, conditioning, hair mask and massage. \r\n\r\nMyGlamm brings to you MoroccanOil hair spas to help you get strong and healthy hair. MoroccanOil products are antioxidant infused and nutrient rich that provide unmatched and dramatic results in just a few sittings.\r\n\r\n\r\nSo bask in the goodness of the MoroccanOil hair spa  and make sure your hair gets its dose of nutrition regularly.",
+					"services": [
+						{
+							"id": 91,
+							"name": "Ritual Hair Spa",
+							"description": "60 mins hair spa session with steam and 15 mins of relaxing massage with Morocconoil hair care products. Total time taken for service - 75 mins",
+							"duration": 60,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-29 15:25:25",
+				"appointmentId": 12023,
+				"appointmentStartTS": "2016-07-31T08:00:00.000+0000",
+				"appointmentEndTS": "2016-07-31T10:00:00.000+0000",
+				"activityTS": "2016-07-29T09:55:25.000+0000",
+				"finalAmount": 2600,
+				"originalAmount": 2600,
+				"status": "UNASSIGNED",
+				"statusUpdateMessage": "==> Appointment Created Successfully",
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-29 15:25:25",
+					"originalAmount": 2600,
+					"finalAmount": 2600,
+					"activityTS": "2016-07-29T09:55:25.000+0000",
+					"payMode": "WALLET",
+					"payStatus": "SUCCESS",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 7591,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "bshns",
+					"societyName": "vsjbshddnkdjd",
+					"flatNumber": "gsjsb",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400045,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-29 15:25:25",
+				"originalAmount": 2600,
+				"finalAmount": 2600,
+				"activityTS": "2016-07-29T09:55:25.000+0000",
+				"payMode": "WALLET",
+				"payStatus": "SUCCESS",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Admin-Panel",
+				"userId": "120183",
+				"createdBy": "120183",
+				"createdTS": "2016-07-19 10:52:19",
+				"franchiseId": 47,
+				"franchiseUniqueId": "INUF72721",
+				"franchiseName": "Mapping_Unit",
+				"ownerName": "OWNER22",
+				"associatedStartTS": "2016-07-19 10:51:08",
+				"associatedEndTS": "2016-07-19 10:51:08",
+				"contractTS": "2016-07-19 10:51:08",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "kavita@gmail.com",
+				"mobile": "7897897890"
+			},
+			"subCategories": [
+				{
+					"id": 34,
+					"name": "L'Oreal Hair Treatments",
+					"description": "A hair spa is not just about pampering but also about providing nutrients to the hair and maintaining healthy growth. The four essentials involved in the process are: Shampoo, conditioning, hair mask and massage. \r\n\r\nMyGlamm brings to you L'Oreal hair spas to help you get healthy and luscious hair. L'Oreal hair spa makes your hair look luscious, smooth and manageable. \r\nA L'Oreal hair spa is recommended if you're looking at cutting down the frizz.",
+					"services": [
+						{
+							"id": 159,
+							"name": "L'Oreal Absolute Repair treatment ",
+							"description": "The absolute repair treatment works on the cortex of the hair and repairs the lipidium thus strenghening the hair & giving it a healthy shine and smoothness.",
+							"duration": 60,
+							"quantity": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"createdBy": "fispl",
+				"createdTS": "2015-09-04 06:13:36",
+				"modifiedTS": "2016-07-29 17:45:51",
+				"artistId": 2440,
+				"firstName": "LATA",
+				"lastName": "NIRMALE",
+				"email": "vishnu.nirmale1@gmail.com",
+				"mobileNumber": "9594880098",
+				"gender": "FEMALE",
+				"imageURL": "ProfilePicture/Lata_Nirmale.jpg",
+				"artistGlammId": "IN5093612",
+				"dob": "2016-04-13 00:00:00",
+				"enabled": true,
+				"aggregatedRating": 4.64,
+				"ratedCount": 25,
+				"experience": 5,
+				"description": "Hi, I’m Lata. I’m 28 years old and I have been a Beauty Therapist for 5 years. I specialize in all beauty treatments. I only use professional products, which are known in the beauty industry.  I have regular client request for all beauty services.\r\n\r\nI speak Hindi and Marathi. I’m a calm and introvert person, but professional when it comes to work. Have a rejuvenating session in the comfort of your home.",
+				"genderPreference": "FEMALE",
+				"artistType": "EMPLOYEE",
+				"glammId": "INMAHMUM000113",
+				"priceBandEnum": "LOW",
+				"engagementModeEnum": "EMPLOYEE",
+				"educationalQualification": "S.S.C",
+				"technicalQualification": "Sashi Parlour",
+				"pastCompany1": "Sashi Parlour1",
+				"pastCompany2": "abc",
+				"identityProofEnum": "PAN_CARD"
+			},
+			"appointment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-26 18:01:25",
+				"appointmentId": 11965,
+				"appointmentStartTS": "2016-07-31T10:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T11:15:00.000+0000",
+				"activityTS": "2016-07-26T12:31:25.000+0000",
+				"finalAmount": 1850,
+				"discount": 0,
+				"originalAmount": 1850,
+				"status": "PG_CANCELLED",
+				"statusUpdateMessage": "PG_CANCELLED",
+				"artistId": 2440,
+				"appointmentPayment": {
+					"appVersion": "2.0.1",
+					"deviceType": "Android",
+					"createdTS": "2016-07-26 18:01:25",
+					"discount": 0,
+					"originalAmount": 1850,
+					"finalAmount": 1850,
+					"activityTS": "2016-07-26T12:31:25.000+0000",
+					"payMode": "PG",
+					"payStatus": "FAILED",
+					"pgMode": "DEBIT_CARD",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"couponCode": "",
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.0.1",
+				"deviceType": "Android",
+				"createdTS": "2016-07-26 18:01:25",
+				"discount": 0,
+				"originalAmount": 1850,
+				"finalAmount": 1850,
+				"activityTS": "2016-07-26T12:31:25.000+0000",
+				"payMode": "PG",
+				"payStatus": "FAILED",
+				"pgMode": "DEBIT_CARD",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-18 13:58:53",
+				"modifiedTS": "2016-07-18 13:59:50",
+				"appointmentId": 11898,
+				"appointmentStartTS": "2016-07-31T04:30:00.000+0000",
+				"appointmentEndTS": "2016-07-31T12:20:00.000+0000",
+				"activityTS": "2016-07-18T08:28:53.000+0000",
+				"finalAmount": 7315,
+				"originalAmount": 7315,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 4,
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-18 13:58:53",
+					"originalAmount": 7315,
+					"finalAmount": 7315,
+					"activityTS": "2016-07-18T08:28:53.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-18 13:58:53",
+				"originalAmount": 7315,
+				"finalAmount": 7315,
+				"activityTS": "2016-07-18T08:28:53.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 5,
+					"name": "Threading",
+					"description": "Want to get rid of the extra hair growth around your eyebrows, upper lip, chin, forehead or face in general? MyGlamm offers you threading services using organic thread for the procedure. The thread contains aloe vera which helps in calming the skin and reducing redness. Try us out",
+					"services": [
+						{
+							"id": 39,
+							"name": "Eyebrows",
+							"description": "Extra hair removal around eyebrows",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 41,
+							"name": "Chin",
+							"description": "Chin hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 42,
+							"name": "Forehead",
+							"description": "Hair removal from forehead",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 53,
+							"name": "Upper Lip",
+							"description": "Upper lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 54,
+							"name": "Lower Lip",
+							"description": "Lower lip hair removal",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 55,
+							"name": "SideLocks",
+							"description": "Side locks removal with threading",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 56,
+							"name": "Jawline",
+							"description": "Hair removal on the jaw line",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 57,
+							"name": "Neck",
+							"description": "Hair removal across the neck",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 58,
+							"name": "Face",
+							"description": "Hair removal across face",
+							"duration": 30,
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"id": 6,
+					"name": "Waxing (Flavoured)",
+					"description": "Flavoured wax - MyGlamm allows you to choose from a range of flavoured waxes to ease your way through the process of hair removal. Pick from our all time favourite flavours of waxes that'll help in getting rid of in-growth, the finest of body hair and also skin tan. ",
+					"services": [
+						{
+							"id": 7,
+							"name": "Full Arms",
+							"description": "Full arms waxing from your shoulder to the fingers",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 27,
+							"name": "Full Legs",
+							"description": "Full leg hair removal from thighs to toes",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 28,
+							"name": "Half Arms",
+							"description": "Half arms hair removal from elbow to fingers",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 29,
+							"name": "UnderArms",
+							"description": "Under arm hair removal with flavoured wax",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 30,
+							"name": "Full Front",
+							"description": "Hair removal from chest to abdomen",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 31,
+							"name": "Bikini Line",
+							"description": "Hair removal from the bikini line only",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 32,
+							"name": "Brazilian",
+							"description": "Complete hair removal from the bikini area",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 33,
+							"name": "Full Face",
+							"description": "Full face hair removal includes forehead, eyebrows, upper lip, side locks, jawline, chin and lower lip",
+							"duration": 15,
+							"quantity": 1
+						},
+						{
+							"id": 59,
+							"name": "Full Back",
+							"description": "Hair removal from neck to lower back",
+							"duration": 30,
+							"quantity": 1
+						},
+						{
+							"id": 61,
+							"name": "Half Front",
+							"description": "Hair removal from chest to lower stomach",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 66,
+							"name": "Full Body",
+							"description": "Full body hair removal",
+							"duration": 90,
+							"quantity": 1
+						},
+						{
+							"id": 180,
+							"name": "Half Back",
+							"description": "Hair removal from upper back or lower back as per requirement using flavoured Rica wax",
+							"duration": 20,
+							"quantity": 1
+						},
+						{
+							"id": 181,
+							"name": "Upper lips",
+							"description": "Hair removal from upper lip using flavoured Rica wax.",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 182,
+							"name": "Sidelocks",
+							"description": "Sidelocks removal using flavoured Rica wax.",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 183,
+							"name": "Chin",
+							"description": "Hair removal from chin using flavoured Rica wax.",
+							"duration": 5,
+							"quantity": 1
+						},
+						{
+							"id": 184,
+							"name": "Jawline",
+							"description": "Hair removal from jawline using flavoured Rica wax.",
+							"duration": 10,
+							"quantity": 1
+						},
+						{
+							"id": 185,
+							"name": "Forehead",
+							"description": "Hair removal from forehead using flavoured Rica wax.",
+							"duration": 10,
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"artist": {
+				"appVersion": "1.0",
+				"deviceType": "DataMigration",
+				"artistId": 0,
+				"firstName": "MYGLAMM",
+				"lastName": "ARTIST",
+				"email": "tech@myglamm.com",
+				"mobileNumber": "12321312312",
+				"gender": "MALE",
+				"imageURL": "ProfilePicture/MyGlammLogo.jpg",
+				"artistGlammId": "",
+				"enabled": true,
+				"description": "MyGlamm Conceirge Artist",
+				"genderPreference": "MALE",
+				"artistType": "EMPLOYEE"
+			},
+			"appointment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 17:28:56",
+				"modifiedTS": "2016-07-26 17:51:44",
+				"appointmentId": 11961,
+				"appointmentStartTS": "2016-07-31T13:00:00.000+0000",
+				"appointmentEndTS": "2016-07-31T18:15:00.000+0000",
+				"activityTS": "2016-07-26T11:58:56.000+0000",
+				"finalAmount": 12950,
+				"originalAmount": 12950,
+				"status": "CONSUMER_CANCELLED",
+				"statusUpdateMessage": "CONSUMER_CANCELLED",
+				"reasonId": 6,
+				"appointmentPayment": {
+					"appVersion": "2.1",
+					"deviceType": "ios",
+					"createdTS": "2016-07-26 17:28:56",
+					"originalAmount": 12950,
+					"finalAmount": 12950,
+					"activityTS": "2016-07-26T11:58:56.000+0000",
+					"payMode": "CASH",
+					"payStatus": "PENDING",
+					"payModeValue": 0
+				},
+				"city": {
+					"appVersion": "2.0",
+					"deviceType": "Data Migration",
+					"cityId": 407,
+					"name": "Mumbai",
+					"active": true
+				},
+				"appointmentAddress": {
+					"appVersion": "2.0.1",
+					"deviceType": "android",
+					"addressId": 6513,
+					"addressNickName": "Home",
+					"location": "Lower Parel",
+					"landmark": "Sai Mandir",
+					"societyName": "Golphadevi Road",
+					"flatNumber": "110 /j",
+					"latitude": 0,
+					"longitude": 0,
+					"zipCode": 400058,
+					"defaultFlag": false
+				}
+			},
+			"payment": {
+				"appVersion": "2.1",
+				"deviceType": "ios",
+				"createdTS": "2016-07-26 17:28:56",
+				"originalAmount": 12950,
+				"finalAmount": 12950,
+				"activityTS": "2016-07-26T11:58:56.000+0000",
+				"payMode": "CASH",
+				"payStatus": "PENDING",
+				"payModeValue": 0
+			},
+			"consumer": {
+				"appVersion": "2.0.1",
+				"deviceType": "android",
+				"createdBy": "iOS",
+				"modifiedTS": "2016-07-27 18:57:05",
+				"consumerId": 53371,
+				"firstName": "K",
+				"lastName": "P",
+				"mobileNumber": "9594880098",
+				"email": "kavita.patil@myglamm.com",
+				"gender": "female",
+				"dob": "1993-06-09T18:30:00.000+0000",
+				"enabled": true,
+				"registeredTS": "2016-03-21T06:48:13.000+0000",
+				"adult": true,
+				"acceptedTerms": true,
+				"consumerWallet": {
+					"walletId": 5412,
+					"lastTransactionId": 2932,
+					"currentBalance": 3983,
+					"lastTransactionAmount": 2600,
+					"lastUpdatedTS": "2016-07-29T09:55:25.000+0000"
+				}
+			},
+			"franchise": {
+				"appVersion": "2.0",
+				"deviceType": "Migration",
+				"modifiedTS": "2016-07-25 16:29:40",
+				"franchiseId": 3,
+				"franchiseUniqueId": "INUF72703",
+				"franchiseName": "Mumbai_UF",
+				"ownerName": "owner3",
+				"associatedStartTS": "2016-07-18 18:39:38",
+				"associatedEndTS": "2016-07-18 18:39:38",
+				"contractTS": "2016-07-18 18:39:38",
+				"enabled": true,
+				"franchiseType": "UNIT",
+				"email": "Mumbai_UF@Myglamm.com",
+				"mobile": "9999999996"
+			},
+			"subCategories": [
+				{
+					"id": 7,
+					"name": "Forest Essentials Facials",
+					"description": "Forest essentials products are made in the Himalayas, using local labour and are 100% organic. The spring water that is used in all their products has therapeutic and regenerative qualities that are rich in mineral deposits, which makes for its unique properties.Forest essentials facials not only help you get rid of the dust, dirt, black heads, tan and everything that has afftected your skin from the outiside but will also give your skin the essential nourishment it needs. You'll keep thanking us for the after glow you witness post this facial.*Recommended",
+					"services": [
+						{
+							"id": 37,
+							"name": "Basic Facial",
+							"description": "The basic facial includes cleansing, scrubbing, steaming, blackhead removal and 20 mins of face massage & pack application.",
+							"duration": 45,
+							"quantity": 7
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "test-app",
+  "description": "Dashboard application for test",
+  "main": "index.js",
+  "authors": [
+    "Anuj Gangwal (anuj.gangwal28@rediffmail.com)"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.5.7",
+    "angular-route": "1.5.7",
+    "angular-resource": "1.5.7",
+    "angular-bootstrap": "^1.3.3",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "moment": "^2.14.1",
+    "animate.css": "^3.5.2"
+  }
+}
